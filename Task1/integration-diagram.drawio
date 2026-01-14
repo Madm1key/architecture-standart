@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
+  <diagram name="Page-1" id="AZczphJ8jphcMtf-7CAm">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-25" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-24" value="Оповещение&lt;div&gt;клиента&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=0;" value="АБС" vertex="1">
+          <mxGeometry height="380" width="280" x="340" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-26" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-2" value="Работа с клиентами">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-4" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.user_male;network2IconW=0.8918;network2IconH=1.0003;" value="Фронт-офис" vertex="1">
+          <mxGeometry height="50.015" width="44.59" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-17" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-16" value="Работа с&lt;div&gt;клиентами&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-5" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.user_female;network2IconXOffset=-0.0011;network2IconYOffset=-0.003;network2IconW=0.8096;network2IconH=0.994;" value="Кол-центр" vertex="1">
+          <mxGeometry height="49.7" width="40.48" x="40" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-22" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-35" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="665" />
+              <mxPoint x="300" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-10" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.user_male;network2IconW=0.8918;network2IconH=1.0003;" value="Бэк-офис" vertex="1">
+          <mxGeometry height="50.015" width="44.59" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=0;" value="Почта" vertex="1">
+          <mxGeometry height="70.02" width="70" x="170" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-20" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-2" value="Передача заведенных&lt;div&gt;заявок&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.2236" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=0;" value="Система кол-центра" vertex="1">
+          <mxGeometry height="80.16" width="100" x="210" y="764.77" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=0;" value="СМС-шлюз" vertex="1">
+          <mxGeometry height="80.16" width="100" x="710" y="439.91999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-28" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-27" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.user_female;network2IconXOffset=-0.0011;network2IconYOffset=-0.003;network2IconW=0.8096;network2IconH=0.994;" value="Кредитный&#xa;отдел" vertex="1">
+          <mxGeometry height="49.7" width="40.48" x="40" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-33" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-27" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="r5pIB_B7GybAPoNyc6Sq-32" value="Управление&lt;br&gt;ставками">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="405" as="sourcePoint" />
+            <mxPoint x="205" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-32" parent="1" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="195" y="394.85" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-34" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.398;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-36" edge="1" parent="1" source="r5pIB_B7GybAPoNyc6Sq-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="r5pIB_B7GybAPoNyc6Sq-35" value="Обработка&lt;div&gt;заявок клиента&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="85" y="665" as="sourcePoint" />
+            <mxPoint x="340" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="r5pIB_B7GybAPoNyc6Sq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="665" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5pIB_B7GybAPoNyc6Sq-35" parent="1" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="190" y="655.01" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
