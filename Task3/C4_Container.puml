@@ -18,5 +18,11 @@ Container_Ext(ccSystem, "Call Center System", $descr="Connectable module (e.g. h
 
 Rel(customer, website, "Uses")
 Rel(customer, internetBank, "Uses")
+Rel(bom, abs, "Uses")
+Rel(abs, absDb, "Reads from and writes to")
+Rel(abs, smsGateway, "Sends SMS notifications via")
+Rel(ccm, ccSystem, "Uses")
+Rel(website, ccSystem, "Sends customer requests for processing")
+Rel(internetBank, abs, "Sends customer requests for processing")
 
 @enduml
