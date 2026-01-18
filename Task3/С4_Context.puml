@@ -4,11 +4,13 @@
 Person(customer, "Bank customer", "Uses banking services")
 Person(ccm, "Call center manager", "Handles customer requests created on the website")
 Person(bom, "Back office manager", "Confirms customer requests")
+Person(fom, "Front office manager", "Creates customer applications at the bank office")
 System(app, "Bank System", "Processes customer requests, manages banking operations")
 System_Ext(ccSystem, "Call center System", $descr="System for managing user requests")
 
 Rel(ccm, ccSystem, "Uses")
 Rel_U(customer, app, "Uses")
 Rel(bom, app, "Uses")
+Rel(fom, app, "Uses")
 Rel_R(app, ccSystem, "Sends customer requests for processing")
 @enduml

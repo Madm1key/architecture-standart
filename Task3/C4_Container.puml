@@ -4,23 +4,26 @@
 Person(customer, "Bank customer", "Uses banking services")
 Person(ccm, "Call center manager", "Handles customer requests created on the website")
 Person(bom, "Back office manager", "Confirms customer requests")
+Person(fom, "Front office manager", "Creates customer applications at the bank office")
 
 System_Boundary(s, "Bank System") {
   Container(website, "Bank Website", $descr="Provides information on deposits, allows customers to submit a deposit application")
   Container(internetBank, "Internet Bank App", $descr="Allows customers to manage deposits")
   Container(abs, "ABS", $descr="Core banking system")
-  Container(smsGateway, "SMS Gateway", $descr="Sends SMS notifications to customers")
 
   ContainerDb(absDb, "Database", $descr="Stores core banking data")
 }
 
+Container_Ext(smsGateway, "SMS Gateway", $descr="Sends SMS notifications to customers")
 Container_Ext(ccSystem, "Call Center System", $descr="Connectable module (e.g. heating control module)")
 
 Rel(customer, website, "Uses")
 Rel(customer, internetBank, "Uses")
 Rel(bom, abs, "Uses")
+Rel(fom, abs, "Uses")
 Rel(abs, absDb, "Reads from and writes to")
 Rel(abs, smsGateway, "Sends SMS notifications via")
+Rel(ccSystem, smsGateway, "Sends SMS notifications via")
 Rel(ccm, ccSystem, "Uses")
 Rel(website, ccSystem, "Sends customer requests for processing")
 Rel(internetBank, abs, "Sends customer requests for processing")
