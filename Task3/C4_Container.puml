@@ -10,12 +10,11 @@ System_Boundary(s, "Bank System") {
   Container(website, "Bank Website", $descr="Provides information on deposits, allows customers to submit a deposit application")
   Container(internetBank, "Internet Bank App", $descr="Allows customers to manage deposits")
   Container(abs, "ABS", $descr="Core banking system")
+  Container(smsGateway, "SMS Gateway", $descr="Sends SMS notifications to customers")
+  Container(ccSystem, "Call Center System", $descr="Connectable module (e.g. heating control module)")
 
   ContainerDb(absDb, "Database", $descr="Stores core banking data")
 }
-
-Container_Ext(smsGateway, "SMS Gateway", $descr="Sends SMS notifications to customers")
-Container_Ext(ccSystem, "Call Center System", $descr="Connectable module (e.g. heating control module)")
 
 Rel(customer, website, "Uses")
 Rel(customer, internetBank, "Uses")

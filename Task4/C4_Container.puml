@@ -1,0 +1,23 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(ccm, "Call center manager", "Advises customers")
+Person_Ext(pccm, "Partner call center manager", "Advises customers")
+
+System_Boundary(s, "Bank System") {
+  Container(abs, "ABS", $descr="Core banking system")
+  Container(ccSystem, "Call center System", $descr="System for managing user requests")
+}
+
+System_Boundary(p, "Partner call center System") {
+  Container_Ext(pccSystem, "Partner call center System", $descr="System for managing user requests")
+  Container_Ext(sftp, "SFTP Server", $descr="Stores deposit rate files")
+}
+
+Rel(ccm, ccSystem, "Uses")
+Rel(pccm, pccSystem, "Uses")
+Rel(ccSystem, abs, "Get deposit rates")
+Rel(pccm, sftp, "Downloads deposit rate files")
+Rel(abs, sftp, "Uploads deposit rate files")
+
+@enduml
